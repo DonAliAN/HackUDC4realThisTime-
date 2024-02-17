@@ -1,6 +1,18 @@
-import streamlit as st 
+    ##############################################################################
+
+    # Copyright (c) 2018 <Company or Individual> and others.
+
+    # All rights reserved. This program and the accompanying materials
+
+    # are made available under the terms of the Apache License, Version 2.0
+
+    # which accompanies this distribution, and is available at
+
+    # http://www.apache.org/licenses/LICENSE-2.0
+
+    ##############################################################################
+
 import pandas as pd
-from streamlit_echarts import st_echarts
 import streamlit as st
 from streamlit_echarts import st_echarts
 #from ChatBot import generar_respuesta

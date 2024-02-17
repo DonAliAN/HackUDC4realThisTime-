@@ -23,7 +23,7 @@ if uploaded_file is not None:
     columna_consumo = identificar_columna(df)
     
     if columna_consumo:
-        st.write(f"Se detectó la columna de consumo: {columna_consumo}")
+        #.write(f"Se detectó la columna de consumo: {columna_consumo}")
         st.line_chart(df[columna_consumo])
     else:
-        st.error("No se pudo detectar automáticamente una columna de consumo. Verifica tu archivo.")
+        st.error("No se pudo detectar automáticamente una columna de consumo. Verifica tu archivo y asegúrate que exista una columna válida.")

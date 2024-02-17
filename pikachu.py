@@ -59,9 +59,9 @@ if uploaded_file is not None:
             - **Utiliza regletas inteligentes** para apagar completamente los dispositivos que no estén en uso.
             """)
         else:
-            st.markdown("Tu consumo de energía es relativamente bajo. ¡Excelente trabajo manteniéndolo así!")
+            st.markdown("Tu consumo de energía es relativamente bajo. ¡Bien!")
 
     else:
-        st.error("No se pudo detectar automáticamente una columna de consumo. Verifica tu archivo.")
+        st.error("No se pudo detectar automáticamente una columna de consumo. Verifica tu archivo y asegúrate que tenga una columna que contenga la .")
 else:
     st.markdown("## Por favor, sube un archivo para comenzar el análisis.", unsafe_allow_html=True)

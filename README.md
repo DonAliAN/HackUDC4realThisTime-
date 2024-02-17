@@ -16,3 +16,5 @@ Tras trabajo y aprendizaje de nuevas herramientas como el uso de Git y GitHub, n
 17-02-24 ---------
 
 El debate sobre el proyecto se vió conluído, debido al avance positivo del reto de Gradiant y la web en desarrollo. Nos dedicamos a profundizar en la funcionalidad de la web, de modo que añadimos por encima de las gráficas de consumo básicas, un pequeño algoritmo que aconseja ciertas prácticas al usuario sobre cómo ahorrar en su consumo. Este y otros detalles estéticos hicieron que nos pongamos a trabajar al 100% en esta idea. 
+
+Tras trabajar en nuevas funciones nos encontramos con numerosos errores, ya sea dentro del git, el repositorio, los propios editores de texto, problemas con la descarga de python y las librerías. Pasamos mucho tiempo arreglando los errores que nos llevaba avanzar, por lo que descartamos varias funcionalidades que pensábamos implementar como la API pública de la luz española. 

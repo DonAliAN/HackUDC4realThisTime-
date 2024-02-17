@@ -27,3 +27,9 @@ if uploaded_file is not None:
         st.line_chart(df[columna_consumo])
     else:
         st.error("No se pudo detectar automáticamente una columna de consumo. Verifica tu archivo y asegúrate que exista una columna válida.")
+
+
+if columna_consumo:
+    df['Diferencia'] = df[columna_consumo].diff()
+    st.line_chart(df['Diferencia'])
+    # Agrega lógica adicional para interpretar estas diferencias como tendencias.

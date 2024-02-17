@@ -1,23 +1,48 @@
-# HackUDC4realThisTime 
- Always learning, always growing. 
+# Kilowatt Quest
+
+## Introducción 
+
+Una simple solución para desplegar datos de facturas de luz en formato .csv y excel, y recopilar consejos para disminuir el consumo energético en caso de que sea elevado. Incluye un chatbot que es capaz de responder a preguntas simples. 
+
+## Descripción 
+
+Somos un grupo de estudiantes de primero de carrera y esta es la solución que presentamos para participar en el reto de Gradiant, el cual hemos escogido debido a la facilidad que tendremos para aprender y ganar experiencia en el ámbito de desarrollo real usando Python, Git, Git-Hub y VS Code. 
 
 
-16-02-24 --------
+## Getting Started
 
-Buenas, somos estudiantes de primero de ingeniería informática en la UDC, y este es nuestro primer hackathon. 
+#### Dependencies
 
-En este proyecto buscamos ante todo aprender y ganar experiencia con un ambiente de desarrollo real. 
-Hemos escogido hacer una web ya que tenemos conocimientos básicos, y es una buena manera de participar en el reto de gradiant de forma sencilla. 
+    Son necesarias las librerías de python, streamlit, pandas, streamlit-echarts y sklearn. Y para probar su funcionalidad utilice el archivo "electrodatos.csv" aportado en el repositorio. 
 
-El primer problema que afrontamos fue encontrar una idea en la que trabajar que se adecúe a nuestro nivel de experiencia y en el que podamos colaborar en grupo. Tras debatir las distintas posibilidades, encontramos que hacer una web sencilla y utilizando python en la lógica es la forma más simple de poder participar en un reto. A pesar de haber terminado un modelo básico sobre el que podemos construir, el debate sobre si alguna otra opción siguió surgiendo durante el desarrollo. 
 
-Tras trabajo y aprendizaje de nuevas herramientas como el uso de Git y GitHub, nuevas funcionalidades de IDEs como VS Code y Jet Brains, así como escribir documentación, nuevos conocimientos en Python, sobretodo en la librería de Streamlit y matplot para graficar los datos, que nos permite tener una interfaz básica para la web sin malgastar demasiado tiempo jugando con el frontend. Al final del día logramos alcanzar un modelo funcional que servirá como base para implementar las funcionalidades que demanda el reto para que sea al menos presentable. 
+### Installing
 
-17-02-24 ---------
+    Se puede descargar en: | https://github.com/DonAliAN/HackUDC4realThisTime- |
 
-El debate sobre el proyecto se vió conluído, debido al avance positivo del reto de Gradiant y la web en desarrollo. Nos dedicamos a profundizar en la funcionalidad de la web, de modo que añadimos por encima de las gráficas de consumo básicas, un pequeño algoritmo que aconseja ciertas prácticas al usuario sobre cómo ahorrar en su consumo. Este y otros detalles estéticos hicieron que nos pongamos a trabajar al 100% en esta idea. 
+### Executing program
 
+<<<<<<< Updated upstream
 Tras trabajar en nuevas funciones nos encontramos con numerosos errores, ya sea dentro del git, el repositorio, los propios editores de texto, problemas con la descarga de python y las librerías. Pasamos mucho tiempo arreglando los errores que nos llevaba avanzar, por lo que descartamos varias funcionalidades que pensábamos implementar como la API pública de la luz española.
 
 
 La aplicación opera analizando el archivo CSV que el usuario selecciona. Para este análisis, empleamos los algoritmos proporcionados por la empresa Gradiant en su archivo Jupyter Notebook. A través de los datos recopilados, se generan dos gráficas que representan la información contenida en el archivo CSV de una forma visual para que se pueda facilmente. Luego, se incorpora la funcionalidad de un chatbot que, si bien no utiliza directamente inteligencia artificial, la aplica de manera indirecta para clasificar las intenciones del usuario mediante etiquetas y asi obtener una respuesta mas precisa. A partir de la etiqueta predicha por el modelo preentrenado, se ejecuta una función asociada que devuelve e imprime información acerca de lo que el usuario solicitó.
+=======
+Una vez descargadas las librerías necesarias, simplemente ejecuta la aplicación "pikachu.py" desde el editor o usando el comando "streamlit run pikachu.py" en la consola. 
+
+
+## Authors
+
+Marcos: https://github.com/marcos-zuniga-ituarte 
+Nerea: https://github.com/NereaPP 
+Zoe: https://github.com/Zoee-K 
+Ali: https://github.com/DonAliAN 
+
+
+# License
+
+This project is licensed under the MIT License - see the LICENSE.md file for details
+Acknowledgments
+
+-------
+>>>>>>> Stashed changes

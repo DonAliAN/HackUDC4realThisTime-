@@ -27,10 +27,10 @@ Una vez descargadas las librerías necesarias, simplemente ejecuta la aplicació
 
 ## Authors
 
-Marcos: https://github.com/marcos-zuniga-ituarte 
-Nerea: https://github.com/NereaPP 
-Zoe: https://github.com/Zoee-K 
-Ali: https://github.com/DonAliAN 
+- Marcos: https://github.com/marcos-zuniga-ituarte 
+- Nerea: https://github.com/NereaPP 
+- Zoe: https://github.com/Zoee-K 
+- Ali: https://github.com/DonAliAN 
 
 
 # License
